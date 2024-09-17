@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="custom.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- First slide -->
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<p style="font-size: 80px; color: #706f72; text-align: left;">
+						Predictive Maintenance
+					</p>
+					<p style="font-size: 24px; color: #706f72; text-align: left; margin-top: 20px;">
+						Jabez
+					</p>
+					<div class="r-hstack justify-left" style="position: absolute; left: -1%; top: 105%;">
+						<!-- Horizontally stacked shapes below the Jabez text -->
+						<div data-id="shape1" style="background: #f0f0f0; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="shape2" style="background: #e0e0e0; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="shape3" style="background: #d0d0d0; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+					</div>
+				</section>
+				
+				
+				
+				<!-- Second Slide -->
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<p style="text-align: left; margin-bottom: 20px;">Executive Summary</p>
+					<p style="font-size: 18px; text-align: left;">
+						The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset with 10,000 instances and 14 features. It simulates real industrial conditions, capturing sensor data like temperature, rotational speed, torque, and tool wear, to predict machine failures. The dataset is used for tasks like classification and regression, aimed at improving predictive maintenance systems.
+					</p>
+					
+					<p style="text-align: left; margin-top: 40px;">Problem Statement</p>
+					<p style="font-size: 18px; text-align: left;">
+						The dataset's primary challenge is to predict machine failures based on sensor readings. By analyzing features related to operational conditions, the goal is to develop models that can forecast failures and reduce unexpected downtime in industrial machinery.
+					</p>
+				
+					<div class="r-vstack" style="position: absolute; right: -15%; top: 20%;">
+						<!-- Vertically aligned shapes in the rightmost corner -->
+						<div data-id="shape1" style="background: #f0f0f0; width: 100px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="shape2" style="background: #e0e0e0; width: 100px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="shape3" style="background: #d0d0d0; width: 100px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+					</div>
+				</section>
+				<!-- Third Slide -->
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<p style="text-align: center; margin-bottom: 20px;">Envisioned KPIs</p>
+					<div class="r-vstack" style="align-items: center;">
+						<!-- Vertically aligned shapes with more aesthetic colors -->
+						<div data-id="shape1" style="background: #f0f0f0; width: 350px; height: 100px; margin: 10px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-size: 24px; color: #333;">
+							Process Temperature
+						</div>
+						<div data-id="shape2" style="background: #e0e0e0; width: 350px; height: 100px; margin: 10px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-size: 24px; color: #333;">
+							Rotational Speed
+						</div>
+						<div data-id="shape3" style="background: #d0d0d0; width: 350px; height: 100px; margin: 10px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-size: 24px; color: #333;">
+							Tool Wear
+						</div>
+					</div>
+				</section>
+				
+				<!-- Fourth Slide -->
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-stack" style="position: absolute; left: -10%; top: -10%; transform: translateY(-50%);">
+						<div data-id="shape1" style="background: #f0f0f0; width: 150px; height: 150px; border-radius: 50%; margin: -25px 0 0 -25px;"></div>
+						<div data-id="shape2" style="background: #e0e0e0; width: 100px; height: 100px; border-radius: 50%; margin: -25px 0 0 -25px;"></div>
+						<div data-id="shape3" style="background: #d0d0d0; width: 50px; height: 50px; border-radius: 50%; margin: -25px 0 0 -25px;"></div>
+					  </div>
+					<p style="text-align: left; margin-top: 20px;">Proposed Solution: An ML Approach</p>
+					<p style="font-size: 18px; text-align: left;">
+						<strong>Data Preprocessing:</strong>
+						Clean data, handle missing values, and normalize features.<br>
+						<br>
+						<strong>Model Selection:</strong>
+						Lets go with Classification. Use Logistic Regression, Random Forest, and SVM to predict failure events.<br>
+						<br>
+						<strong>Model Training:</strong>
+						Train models with cross-validation and tune hyperparameters for optimal performance.<br>
+						<br>
+						<strong>Evaluation:</strong>
+						Metrics: Accuracy, precision, recall, F1-score.<br>
+						<br>
+						<strong>Deployment:</strong>
+						Integrate the best model into a predictive maintenance system and monitor its performance.
+					</p>
+				</section>
+				<!-- Fifth Slide -->
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-stack" style="position: absolute; left: -10%; top: -10%; transform: translateY(50%);">
+						<div data-id="shape1" style="background: #f0f0f0; width: 150px; height: 150px; border-radius: 50%; margin: 50px 0 0 50px; transform: rotate(45deg);"></div>
+						<div data-id="shape2" style="background: #e0e0e0; width: 100px; height: 100px; border-radius: 50%; margin: 100px 0 0 100px; transform: rotate(-45deg);"></div>
+						<div data-id="shape3" style="background: #d0d0d0; width: 50px; height: 50px; border-radius: 50%; margin: 150px 0 0 150px;"></div>
+					</div>
+					<div style="position: relative; z-index: 1; margin-top: 100px;">
+						<img src="Img1.png" alt="Image Description" style="width: 65%; height: auto;">
+					</div>
+				</section>
+				  
+
+				  <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-stack star-animation" style="position: absolute; left: -10%; top: -10%; transform: translateY(50%);">
+					  <div data-id="shape1" style="background: #f0f0f0; width: 150px; height: 150px; border-radius: 50%; margin: 20px 100px 0 0; transform: rotate(0deg);"></div>
+					  <div data-id="shape2" style="background: #e0e0e0; width: 100px; height: 100px; border-radius: 50%; margin: -50px 50px 0 50px; transform: rotate(135deg);"></div>
+					  <div data-id="shape3" style="background: #d0d0d0; width: 50px; height: 50px; border-radius: 50%; margin: 50px 0 0 -50px; transform: rotate(-135deg);"></div>
+					</div>
+					<p style="text-align: right; margin-top: 20px;">Importing Essentials</p>
+					<pre data-id="code-animation"><code class="hljs python" data-trim data-line-numbers="|1|2|3|4">
+						import pandas as pd
+						import numpy as np
+						import seaborn as sns
+						import matplotlib.pyplot as plt
+					</code></pre>
+				</section>
+
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="content-container">
+						<div class="r-stack scatter-animation" style="position: absolute; right: 0; top: 50%; transform: translate(-50%, -50%); margin-top: 100px;">
+							<div data-id="shape1" style="background: #f0f0f0; width: 150px; height: 150px; border-radius: 50%; margin: 300px 200px 0 200px; transform: rotate(45deg);"></div>
+							<div data-id="shape2" style="background: #e0e0e0; width: 100px; height: 100px; border-radius: 50%; margin: -100px 0 0 300px; transform: rotate(-45deg);"></div>
+							<div data-id="shape3" style="background: #d0d0d0; width: 50px; height: 50px; border-radius: 50%; margin: 200px 300px 0 -200px; transform: rotate(0deg);"></div>
+						  </div>
+					  <h2 data-id="code-title">Fitting a Random Forest</h2>
+					  <pre data-id="code-animation"><code class="hljs python" data-trim data-line-numbers="|1|2|3|4|5|6">
+						  from sklearn.ensemble import RandomForestClassifier
+						  forest = RandomForestClassifier()
+						  forest.fit(X_train, y_train)
+						  y_forest = forest.predict(X_test)
+						  print(classification_report(y_test, y_forest))
+						  print(random_forest = accuracy_score(y_test, y_forest))
+					  </code></pre>
+					</div>
+				  </section>
+				<!-- Comment -->
+				<!-- Comment -->
+			<section data-auto-animate>
+				<h2 data-id="code-title">Pretty Code</h2>
+				<pre data-id="code-animation"><code class="hljs python" data-trim data-line-numbers>
+					               precision    recall  f1-score   support
+					            0       0.99      1.00      0.99      1861
+					            1       0.86      0.48      0.62        50
+					     accuracy                           0.98      1911
+					    macro avg       0.92      0.74      0.80      1911
+					 weighted avg       0.98      0.98      0.98      1911
+
+					 Accuracy Score : 0.9843014128728415
+				</code></pre>
+				<p>The Accuracy is pretty good!</p>
+			</section>
+		
+
+				
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
