@@ -1,25 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=IntelClear");
 
 .reveal {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  font-family: 'Inter', sans-serif;
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Inter", sans-serif;
 }
 .reveal {
-    background-color: #FFFFFF; /* White background */
-  }
-  
-  .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    color: #706F72; /* Font color for headings */
-  }
-  
-  .reveal p {
-    color: #706F72; /* Font color for paragraphs */
-  }
-  
-  img {
-    width: 500px; /* Adjust the width as needed */
-    height: auto;
-  }
+  background-color: #ffffff; /* White background */
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #706f72; /* Font color for headings */
+}
+
+.reveal p {
+  color: #706f72; /* Font color for paragraphs */
+}
+
+img {
+  width: 500px; /* Adjust the width as needed */
+  height: auto;
+}
